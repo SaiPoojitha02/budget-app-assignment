@@ -66,7 +66,7 @@ const RegisterForm = () => {
       </Form.Group>
 
       <Form.Group controlId="password">
-        <Form.Label>Password</Form.Label>
+        <Form.Label>Password (It must be 8 characters long, with a number, a capital letter and a special character)</Form.Label>
         <Form.Control
           type="password"
           placeholder="Enter password"
